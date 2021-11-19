@@ -1,35 +1,55 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
   }
   
-  .topnav {
+  .topNav{
     overflow: hidden;
     background-color: #333;
-    border-radius: 10px;
+    border-bottom-left-radius: 15px;
+    border-radius: 15px;
+  }
+  .logo{
+    width: 100px;
+    border-radius: 90px;
+    text-align: left;
+    position: fixed;
+  }
+  .bottomNav {
+    overflow: hidden;
+    background-color: #333;
+    border-bottom-left-radius: 15px;
+    border-radius: 15px;
   }
   
-  .topnav a {
+  .topNav a,.bottomNav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    border-radius: 15px;
   }
   
-  .topnav a:hover {
+  .topNav a:hover{
     background-color: #d35c38;
     color: black;
   }
   
-  .topnav a.active {
+  .topNav a.active {
     background-color: #cf3000;
     color: white;
   }
-
-img.logo{
-    border-radius: 20px;
-}
+  .bottomNav a:hover{
+    background-color: #d35c38;
+    color: black;
+  }
+  
+  .bottomNav a.active {
+    background-color: #cf3000;
+    color: white;
+  }
 img.cpu{
     border-radius: 20px;
 }
