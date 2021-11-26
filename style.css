@@ -21,6 +21,24 @@ header a.active {
     height: 78px;
 }
 
+footer {
+    overflow: hidden;
+    background-color: rgb(120, 120, 120);
+    border-radius: 15px;
+    height: 70px;
+}
+
+footer a:hover {
+    background-color: #01d6e6;
+    color: black;
+    height: 78px;
+}
+
+footer a.active {
+    background-color: #01d6e6;
+    color: white;
+    height: 78px;
+}
 .logo {
     position: absolute;
     left: 0px;
@@ -46,15 +64,20 @@ header a.active {
 
 table, th, td {
     border: black 1px solid;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
 }
 
-table thead {
-    text-align: center;
+table thead {   
     font-weight: bold;
     font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 img.cpu {
     border-radius: 20px;
-    width: 200px;
+    width: 100px;
 }
