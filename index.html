@@ -4,8 +4,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
+  <link rel="stylesheet" href="style.css"> <!-- RESPÒNSIVE Normal-->
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" href="styleMitja.css"> <!-- RESPÒNSIVE MItja-->
+  <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="stylePetit.css"> <!-- RESPÒNSIVE petit-->
   <title>Review CPUs</title>
 </head>
 
@@ -22,37 +24,38 @@
   </header>
   <!--Final Capçalera -->
 
-  <img src="" alt="Principal"> <!-- Imatge Principal  -->
+  <img src="../img/CpuFondo.jpg" alt="Principal"> <!-- Imatge Principal  -->
   <br>
   <br>
   <table>
-    <thead>Processadors</thead>
+    <h2>Processadors</h2>
+    <br>
     <tbody>
       <tr>
-        <td>Model</td>
+        <td><strong>Model</strong></td>
         <td><img class="cpu" src="img/ryzen5.jpg" alt="CPU"><br>Ryzen 5 5600X</td>
         <td><img class="cpu" src="img/inteli5.jpg" alt="CPU"><br>Intel i5 12600K</td>
         <td><img class="cpu" src="img/ryzen9.jpg" alt="CPU"><br>Ryzen 9 5950X</td>
       </tr>
       <tr>
-        <td>Marca</td>
+        <td><strong>Marca</strong></td>
         <td>Procesador Ryzen</td>
         <td>Procesador Intel</td>
         <td>Procesador Ryzen</td>
       </tr>
       <tr>
-        <td>Nuclis</td>
+        <td><strong>Nuclis</strong></td>
         <td>6 Nuclis i 12 Fils</td>
-        <td>6/4(potència i eficiencia) Nuclis i 16 Fils</td>
+        <td>6/4(potència i eficiencia) <br>Nuclis i 16 Fils</td>
         <td>16 Nuclis i 32 Fils</td>
       </tr>
       <tr>
-        <td>Freqüència</td>
+        <td><strong>Freqüència</strong></td>
         <td>3.7GHz - 4.6GHz</td>
         <td>2.8GHz - 4.9GHz</td>
         <td>3.4GHz - 4.9GHz</td>
       </tr>
-      <td>Preu</td>
+      <td><strong>Preu</strong></td>
       <td>299€ </td>
       <td>298€</td>
       <td>799€</td>
@@ -64,6 +67,7 @@
 
   <footer class="bottomNav">
     <!-- Inici Peu de Pàgina  -->
+    <img class="logo" src="img/logo.png" alt="LOGO"> <!-- Logo Pàgina  -->
     <div class="nav">
       <a class="active" href="#home">Inici</a>
       <a href="#videos">Videos</a>
@@ -74,4 +78,4 @@
 
 
 
-</html>
+</html> 
