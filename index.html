@@ -2,80 +2,69 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=0.5" />
-  <link rel="stylesheet" href="style.css"> <!-- RESPÒNSIVE Normal-->
-  <link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" href="styleMitja.css"> <!-- RESPÒNSIVE MItja-->
-  <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="stylePetit.css"> <!-- RESPÒNSIVE petit-->
-  <title>Review CPUs</title>
+    <meta name="author" content="Jan Granell i Kangwei Pan">
+    <meta name="keywords" content="HTML, CSS, SEO, metadata, M4,UF1, PROJECTE">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css"> <!-- RESPÒNSIVE Normal-->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)"
+        href="styleMitja.css"> <!-- RESPÒNSIVE MItja-->
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)"
+        href="stylePetit.css"> <!-- RESPÒNSIVE petit-->
+    <title>Review CPUs</title>
 </head>
 
 <body>
-  <header>
-    <!-- Inici Capçalera  -->
-    <img class="logo" src="img/logo.png" alt="LOGO"> <!-- Logo Pàgina  -->
-    <div class="nav">
-      <a class="active" href="#home">Inici</a>
-      <a href="#videos">Videos</a>
-      <a href="#album">Album</a>
-      <a href="form/formulario.html">Contacte</a>
-    </div>
-  </header>
-  <!--Final Capçalera -->
+    <header>
+        <!-- Inici Capçalera  -->
+        <img class="logo" src="img/logo.png" alt="LOGO"> <!-- Logo Pàgina  -->
+        <div class="nav">
+            <a class="active" href="#home">Inici</a>
+            <a href="#videos">Videos</a>
+            <a href="#album">Album</a>
+            <a href="form/formulario.html">Contacte</a>
+        </div>
+    </header>
+    <!--Final Capçalera -->
 
-  <img src="../img/CpuFondo.jpg" alt="Principal"> <!-- Imatge Principal  -->
-  <br>
-  <br>
-  <table>
-    <h2>Processadors</h2>
+    <img src="img/widetech.jpeg"  alt="Principal" class="banner"> <!-- Imatge Principal  -->
     <br>
-    <tbody>
-      <tr>
-        <td><strong>Model</strong></td>
-        <td><img class="cpu" src="img/ryzen5.jpg" alt="CPU"><br>Ryzen 5 5600X</td>
-        <td><img class="cpu" src="img/inteli5.jpg" alt="CPU"><br>Intel i5 12600K</td>
-        <td><img class="cpu" src="img/ryzen9.jpg" alt="CPU"><br>Ryzen 9 5950X</td>
-      </tr>
-      <tr>
-        <td><strong>Marca</strong></td>
-        <td>Procesador Ryzen</td>
-        <td>Procesador Intel</td>
-        <td>Procesador Ryzen</td>
-      </tr>
-      <tr>
-        <td><strong>Nuclis</strong></td>
-        <td>6 Nuclis i 12 Fils</td>
-        <td>6/4(potència i eficiencia) <br>Nuclis i 16 Fils</td>
-        <td>16 Nuclis i 32 Fils</td>
-      </tr>
-      <tr>
-        <td><strong>Freqüència</strong></td>
-        <td>3.7GHz - 4.6GHz</td>
-        <td>2.8GHz - 4.9GHz</td>
-        <td>3.4GHz - 4.9GHz</td>
-      </tr>
-      <td><strong>Preu</strong></td>
-      <td>299€ </td>
-      <td>298€</td>
-      <td>799€</td>
-      </tr>
-    </tbody>
-  </table>
-  <br>
-  <br>
+    <br>
+    <h2>Processadors</h2>
+    <div id="container">
 
-  <footer class="bottomNav">
-    <!-- Inici Peu de Pàgina  -->
-    <img class="logo" src="img/logo.png" alt="LOGO"> <!-- Logo Pàgina  -->
-    <div class="nav">
-      <a class="active" href="#home">Inici</a>
-      <a href="#videos">Videos</a>
-      <a href="#album">Album</a>
-      <a href="form/form.html">Contacte</a>
+        <div id="div1"><img class="cpu" src="img/ryzen5.jpg" alt="CPU1"><br>AMD Ryzen 5 5600X
+            <p> Aquest processador té 6 Nuclis i 12 Fils, que operen a una frequència base de 3.7GHz, fins a un
+                màxim de
+                4.6GHz. El seu preu es de 299€</p>
+        </div>
+        <br>
+        <div id="div2"><img class="cpu" src="img/inteli5.jpg" alt="CPU2"><br>Intel i5 12600K
+            <p> Aquest processador té 6 Nuclis de potència i 4 d'eficiència, i 16 fils, que operen a una
+                frequència base
+                de 2.8GHz, fins a un màxim de 4.9GHz. El seu preu es de 298€</p>
+        </div>
+        <br>
+
+        <div id="div3"><img class="cpu" src="img/ryzen9.jpg" alt="CPU3"><br>AMD Ryzen 9 5950X
+            <p> Aquest processador té 6 Nuclis de potència i 4 d'eficiència, i 16 fils, que operen a una
+                frequència base de
+                3.4GHz, fins a un màxim de 4.9GHz. El seu preu es de 799€</p>
+        </div>
     </div>
-  </footer> <!-- Final Peu de Pàgina  -->
+    <br>
+    <br>
+    <footer class="bottomNav">
+        <!-- Inici Peu de Pàgina  -->
+        <img class="logo" src="img/logo.png" alt="LOGO"> <!-- Logo Pàgina  -->
+        <div class="nav">
+            <a class="active" href="#home">Inici</a>
+            <a href="#videos">Videos</a>
+            <a href="#album">Album</a>
+            <a href="form/formulario.html">Contacte</a>
+        </div>
+    </footer> <!-- Final Peu de Pàgina  -->
 
-
-
-</html> 
+</html>

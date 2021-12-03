@@ -1,5 +1,8 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 header {
@@ -22,7 +25,11 @@ header a.active {
 }
 
 footer {
+    position: absolute;
+    bottom: 5px;
+    width: 99%;
     overflow: hidden;
+    margin-top: auto;
     background-color: rgb(120, 120, 120);
     border-radius: 15px;
     height: 70px;
@@ -69,7 +76,18 @@ table, th, td {
     margin-right: auto;
     padding: 5px;
 }
+#container
+{
+        display: flex;
+        justify-content: center;
+        margin: 30px;
+}
+#div1, #div2,#div3
+{
 
+    margin: 10px;
+    width:350px;
+}
 table thead {   
     align-items: center;
     margin-left: auto;
@@ -80,6 +98,11 @@ h2{
 }
 
 img.cpu {
+    display:block;
+    margin:auto;
     border-radius: 20px;
-    width: 100px;
+    width: 200px;
+}
+img.banner{
+    width: auto;
 }
