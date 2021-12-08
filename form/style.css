@@ -101,16 +101,14 @@ body  {
 
 .volver {
 
-border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-padding: 10px; /*espacio alrededor texto*/
-background-color: #2e518b; /*color botón*/
-color: #ffffff; /*color texto*/
-text-decoration: none; /*decoración texto*/
-font-family: Monospace; /*tipografía texto*/
+border: 1px solid #01d6e6; 
+padding: 10px; 
+background-color:#01d6e6; 
+color: black; 
+text-decoration: none; 
+font-family: Monospace; 
 font-size: 20px;
-border-radius: 50px; /*bordes redondos*/
-margin-top: 200px; 
-
+border-radius: 50px; 
 
 }
 
