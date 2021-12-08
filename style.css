@@ -1,108 +1,143 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  background-image: url("img/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 500px; /* Suppose you want minimum width of 1000px */
 }
 
 header {
-    overflow: hidden;
-    background-color: rgb(120, 120, 120);
-    border-radius: 15px;
-    height: 70px;
+  overflow: hidden;
+  background-color: rgb(120, 120, 120);
+  border-radius: 15px;
+  height: 70px;
 }
 
 header a:hover {
-    background-color: #01d6e6;
-    color: black;
-    height: 78px;
+  background-color: #01d6e6;
+  color: black;
+  height: 78px;
 }
 
 header a.active {
-    background-color: #01d6e6;
-    color: white;
-    height: 78px;
+  background-color: #01d6e6;
+  color: white;
+  height: 78px;
 }
 
 footer {
-    position: absolute;
+  clear: both;
+  position: relative;
+  margin-top: auto;
+  bottom: 5px;
+  width: 99%;
+  overflow: hidden;
+  background-color: rgb(120, 120, 120);
+  border-radius: 15px;
+  height: 70px;
+}
+footer {
+    position: fixed;
+    clear: both;
+    margin-top: auto;
     bottom: 5px;
     width: 99%;
     overflow: hidden;
-    margin-top: auto;
     background-color: rgb(120, 120, 120);
     border-radius: 15px;
     height: 70px;
-}
+  }
 
 footer a:hover {
-    background-color: #01d6e6;
-    color: black;
-    height: 78px;
+  background-color: #01d6e6;
+  color: black;
+  height: 78px;
 }
 
 footer a.active {
-    background-color: #01d6e6;
-    color: white;
-    height: 78px;
+  background-color: #01d6e6;
+  color: white;
+  height: 78px;
 }
 .logo {
-    position: absolute;
-    left: 0px;
-    width: 92px;
-    border-radius: 10px;
-    text-align: left;
+  position: absolute;
+  left: 0px;
+  width: 92px;
+  border-radius: 10px;
+  text-align: left;
 }
 
 .nav {
-    list-style-type: none;
-    text-align: right;
+  list-style-type: none;
+  text-align: right;
 }
 
 .nav a {
-    text-decoration: none;
-    display: inline-block;
-    text-align: right;
-    color: black;
-    padding: 24px 26px;
-    font-size: 17px;
-    margin: auto;
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+  color: black;
+  padding: 24px 26px;
+  font-size: 17px;
+  margin: auto;
 }
 
-table, th, td {
-    border: black 1px solid;
-    align-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
+table,
+th,
+td {
+  border: black 1px solid;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
 }
-#container
-{
-        display: flex;
-        justify-content: center;
-        margin: 30px;
+#container {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  margin-bottom: 50px;
 }
-#div1, #div2,#div3
-{
-
-    margin: 10px;
-    width:350px;
+#div1,
+#div2,
+#div3 {
+  margin: 10px;
+  width: 350px;
 }
-table thead {   
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+table thead {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
-h2{
-    text-align: center;
+h2 {
+  text-align: center;
 }
 
 img.cpu {
-    display:block;
-    margin:auto;
-    border-radius: 20px;
-    width: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  width: 200px;
 }
-img.banner{
-    width: auto;
+img.banner {
+  width: 1px;
+}
+
+@media screen and (max-width: 700px) {
+  #container {
+    display: block;
+  }
+
+  #div1 {
+    width: 100%;
+  }
+
+  #div2 {
+    width: 100%;
+  }
+  #div3 {
+    width: 100%;
+  }
 }

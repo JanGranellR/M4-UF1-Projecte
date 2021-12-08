@@ -30,7 +30,7 @@ body  {
 
 .form-register h2 {
 
-  font-size 22px;
+  font-size:22px;
   margin-bottom: 20px;
 
 }
@@ -64,6 +64,8 @@ body  {
   color: white;
   text-decoration: underline;
   font-family: calibri;
+  margin-left: 50px;
+
 
 }
 
@@ -78,5 +80,39 @@ body  {
   font-size: 16px;
 
 }
+
+.TerminosyCondiciones {
+
+    
+  
+  font-size:  18px; 
+  text-align: center;
+  background: #24303c;
+  padding: 30px;
+  margin: 100px;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+
+}
+
+
+.volver {
+
+border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+padding: 10px; /*espacio alrededor texto*/
+background-color: #2e518b; /*color botón*/
+color: #ffffff; /*color texto*/
+text-decoration: none; /*decoración texto*/
+font-family: Monospace; /*tipografía texto*/
+font-size: 20px;
+border-radius: 50px; /*bordes redondos*/
+margin-top: 200px; 
+
+
+}
+
 
 
