@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/fondo.jpg");
+  background-image: url("../img/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
@@ -96,9 +96,8 @@ td {
 }
 #container {
   display: flex;
-  justify-content: center;
-  margin: 30px;
-  margin-bottom: 50px;
+  justify-content: space-around;
+  margin: 30px 10px 50px 10px;
 }
 #div1,
 #div2,
