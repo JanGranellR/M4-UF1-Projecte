@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
 
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head> 
-<meta charset="UTF-8">
+    <!-- viewport : Es lo que  le da al navegador instrucciones sobre cómo controlar las dimensiones y la escala de la página. -->
 
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--  la propiedad responsive tiene un límite, por ejemplo no se ajusta un navegador con una resolución demasiado pequeño -->
 
-<!-- viewport : Es lo que  le da al navegador instrucciones sobre cómo controlar las dimensiones y la escala de la página. -->
+    <title>Formulario de registro</title>
+  </head>
 
-<!--  la propiedad responsive tiene un límite, por ejemplo no se ajusta un navegador con una resolución demasiado pequeño -->
+  <body>
+    <form action="forum.php" method="post">
+      <section class="form-register">
+        <!-- section: etiqueta define una sección en un documento.-->
 
+        <h2>Formulario Registro</h2>
 
+        <input
+          class="controls"
+          type="text"
+          name="Nombre"
+          id="Nombre"
+          placeholder="Introducir Nombre"
+          required
+        />
+        <!-- input: etiqueta especifica un campo de entrada donde el usuario puede ingresar datos. -->
+        <!-- requiered: elemento requerido a la hora de enviar el questionario -->
 
-<title>Formulario de registro</title>
-</head>
+        <input
+          class="controls"
+          type="text"
+          name="Apellido"
+          id="Apellido"
+          placeholder="Introducir Apellido"
+        />
 
+        <input
+          class="controls"
+          type="tel"
+          name="Telefono"
+          id="Telefono"
+          placeholder="Introducir Telefono"
+          required
+        />
 
-
-<body>
-
-<form action="forum.php" method="post">
-  
-  <section class="form-register">
-  <!-- section: etiqueta define una sección en un documento.-->
-
-    <h2>Formulario Registro</h2>
-    
-    <input class="controls" type="text" name="Nombre" id="Nombre" placeholder="Introducir Nombre" required > 
-    <!-- input: etiqueta especifica un campo de entrada donde el usuario puede ingresar datos. -->
-
-    <input class="controls" type="text" name="Apellido" id="Apellido" placeholder="Introducir Apellido">
-
-    <input class="controls" type="tel" name="Telefono" id="Telefono" placeholder="Introducir Telefono" required  >
-
-    <label class="controls" for="país">País</label> 
-    <!-- label: etiqueta de sección define una etiqueta para varios elementos -->
+        <label class="controls" for="país">País</label>
+        <!-- label: etiqueta de sección define una etiqueta para varios elementos -->
         <select class="controls" id="país" name="país">
-        <!-- select: El elemento se usa para crear una lista desplegable. -->
+          <!-- select: El elemento se usa para crear una lista desplegable. -->
           <option value="" selected="selected">- selecciona -</option>
           <option value="Espanya">Espanya</option>
           <option value="França">França</option>
@@ -49,25 +62,36 @@
           <option value="Polònia">Polònia</option>
           <!-- option: etiqueta define una opción en una lista de selección. -->
         </select>
- 
-    <input class="controls"  type="email" name="Correo" id="Correo" placeholder="Introducir Correo" required >
 
-    <input class="controls" type="password" name="Correo" id="password" placeholder="Introducir password" required >
+        <input
+          class="controls"
+          type="email"
+          name="Correo"
+          id="Correo"
+          placeholder="Introducir Correo"
+          required
+        />
 
+        <input
+          class="controls"
+          type="password"
+          name="Correo"
+          id="password"
+          placeholder="Introducir password"
+          required
+        />
 
-    <input class="terminos" type="checkbox" name="terminos" required /> 
+        <input class="terminos" type="checkbox" name="terminos" required />
 
-    <a href="terminoycondicion.html"  > Acepto los Terminos y Condiciones </a> 
-    <!-- a: etiqueta define un hipervínculo, que se utiliza para vincular de una página a otra.--> 
+        <a href="terminoycondicion.html"> Acepto los Terminos y Condiciones </a>
+        <!-- a: etiqueta define un hipervínculo, que se utiliza para vincular de una página a otra.-->
 
-    <input class="boton" type="submit" name="Enviar " value="Enviar " />
+        <input class="boton" type="submit" name="Enviar " value="Enviar " />
+      </section>
 
-  </section>
+      <a class="volver" href="../index.html">Tornar</a>
 
-    <a  class="volver" href="../index.html">Tornar</a>
-
-<br/>
-
-</form>
-</body>
+      <br />
+    </form>
+  </body>
 </html>

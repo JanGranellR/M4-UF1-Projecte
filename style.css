@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  min-width: 500px; /* Suppose you want minimum width of 1000px */
+  min-width: 500px;
 }
 
 header {
@@ -40,16 +40,16 @@ footer {
   height: 70px;
 }
 footer {
-    position: fixed;
-    clear: both;
-    margin-top: auto;
-    bottom: 5px;
-    width: 99%;
-    overflow: hidden;
-    background-color: rgb(120, 120, 120);
-    border-radius: 15px;
-    height: 70px;
-  }
+  position: fixed;
+  clear: both;
+  margin-top: auto;
+  bottom: 5px;
+  width: 99%;
+  overflow: hidden;
+  background-color: rgb(120, 120, 120);
+  border-radius: 15px;
+  height: 70px;
+}
 
 footer a:hover {
   background-color: #01d6e6;
@@ -125,8 +125,15 @@ img.cpu {
 img.banner {
   width: 1px;
 }
-
+/*
+Aquesta etiquite et permet modificar sengons l'ample de la pantalla del dispositiu, 
+l'ordre, l'organizació i altres atributs dels elements de la teva pàgina
+*/
 @media screen and (max-width: 700px) {
+  /* 
+  En aquest cas, si l'ample de la pantalla del dispositiu és menor a 700px,
+  ordena de forma vertical els div per a una millor experiència de lectura
+  */
   #container {
     display: block;
   }
