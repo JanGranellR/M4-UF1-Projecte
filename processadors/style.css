@@ -6,7 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  min-width: 500px; /* Suppose you want minimum width of 1000px */
+  min-width: 500px;
 }
 
 header {
