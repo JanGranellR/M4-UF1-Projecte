@@ -2,66 +2,96 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <link rel="icon" type="image/x-icon" href="/img/logo.png">
-    <meta name="author" content="Jan Granell i Kangwei Pan">
-    <meta name="keywords" content="HTML, CSS, SEO, metadata, M4,UF1, PROJECTE">
-    <meta charset="UTF-8"/>
+  <head>
+    <link rel="icon" type="image/x-icon" href="/img/logo.png" />
+    <meta name="author" content="Jan Granell i Kangwei Pan" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, SEO, metadata, M4,UF1, PROJECTE"
+    />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- meta: La etiqueta define metadatos sobre un documento HTML. Los metadatos son datos (información) sobre datos.-->
-    <link rel="stylesheet" href="style.css"> <!-- RESPÒNSIVE Normal-->
+    <link rel="stylesheet" href="style.css" />
+    <!-- RESPÒNSIVE Normal-->
     <title>Review CPUs</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <!-- Inici Capçalera  -->
-        <img class="logo" src="../img/logo.png" alt="LOGO"> <!-- Logo Pàgina  -->
-        <div class="nav">
+      <!-- Inici Capçalera  -->
+      <img class="logo" src="../img/logo.png" alt="LOGO" />
+      <!-- Logo Pàgina  -->
+      <div class="nav">
         <!-- div: etiqueta define una división o una sección en un documento HTML.-->
-            <a  href="../index.html">Inici</a>
-            <a class="active" href="/processadors/llista.html">Processadors</a>
-            <a href="/review/review.html">Review</a>
-            <a href="/form/formulario.html">Contacto</a>
-        </div>
+        <a href="../index.html">Inici</a>
+        <a class="active" href="/processadors/llista.html">Processadors</a>
+        <a href="/review/review.html">Review</a>
+        <a href="/form/formulario.html">Contacto</a>
+      </div>
     </header>
     <!--Final Capçalera -->
-    <br>
-    <br>
+    <br />
+    <br />
     <h2>Lista de Procesadores</h2>
     <div id="container">
+      <div id="div1">
+        <img class="cpu" src="../img/ryzen5.jpg" alt="CPU1" /><br />AMD Ryzen 5
+        5600X
+        <p>
+          Este procesador tiene 6 Núcleos y 12 Hilos, que operan a una
+          frecuencia base de 3.7GHz, hasta un máximo de 4.6GHz. Está fabricado
+          con la tecnología de TSMC 7nm FinFET, cosa que proporciona una mayor
+          eficiencia. Su precio es de 299 €.
+        </p>
+        <a href="https://www.amd.com/es/products/cpu/amd-ryzen-5-5600x"
+          >Más Información</a
+        >
+      </div>
+      <br />
+      <div id="div2">
+        <img class="cpu" src="../img/inteli5.jpg" alt="CPU2" /><br />Intel i5
+        12600K
+        <p>
+          Este procesador tiene 6 Núcleos de potencia y 4 de eficiencia, y 16
+          hilos, que operan en una frecuencia base de 2.8GHz, hasta un máximo de
+          4.9GHz. La generación actual de intel ha incorporado la compatibilidad
+          con RAM DDR5, la nueva generacion de memorias. Su precio es de 298 €.
+        </p>
+        <a
+          href="https://www.intel.es/content/www/es/es/products/sku/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz/specifications.html"
+          >Más Información</a
+        >
+      </div>
+      <br />
 
-        <div id="div1"><img class="cpu" src="../img/ryzen5.jpg" alt="CPU1"><br>AMD Ryzen 5 5600X
-            <p> Este procesador tiene 6 Núcleos y 12 Hilos, que operan a una frecuencia base de 3.7GHz, hasta un
-                máximo de 4.6GHz. Está fabricado con la tecnología de TSMC 7nm FinFET, cosa que proporciona una mayor eficiencia. Su precio es de 299 €.</p>
-                <a href="https://www.amd.com/es/products/cpu/amd-ryzen-5-5600x">Más Información</a>
-
-        </div>
-        <br>
-        <div id="div2"><img class="cpu" src="../img/inteli5.jpg" alt="CPU2"><br>Intel i5 12600K
-            <p> Este procesador tiene 6 Núcleos de potencia y 4 de eficiencia, y 16 hilos, que operan en una
-                frecuencia base de 2.8GHz, hasta un máximo de 4.9GHz. La generación actual de intel ha incorporado la compatibilidad con RAM DDR5, la nueva generacion de memorias. Su precio es de 298 €. </p>
-                <a href="https://www.intel.es/content/www/es/es/products/sku/134589/intel-core-i512600k-processor-20m-cache-up-to-4-90-ghz/specifications.html">Más Información</a>            </div>
-        <br>
-
-        <div id="div3"><img class="cpu" src="../img/ryzen9.jpg" alt="CPU3"><br>AMD Ryzen 9 5950X
-            <p> Este procesador tiene 16 Núcleos y 32 Hilos, que operan a una frecuencia base de 3.4GHz, hasta un
-                máximo de 4.9GHz. Está fabricado con la tecnología de TSMC 7nm FinFET, cosa que proporciona una mayor eficiencia. Su precio es de 799€.</p>
-                <a href="https://www.amd.com/es/products/cpu/amd-ryzen-9-5950x">Más Información</a>
-
-        </div>
+      <div id="div3">
+        <img class="cpu" src="../img/ryzen9.jpg" alt="CPU3" /><br />AMD Ryzen 9
+        5950X
+        <p>
+          Este procesador tiene 16 Núcleos y 32 Hilos, que operan a una
+          frecuencia base de 3.4GHz, hasta un máximo de 4.9GHz. Está fabricado
+          con la tecnología de TSMC 7nm FinFET, cosa que proporciona una mayor
+          eficiencia. Su precio es de 799€.
+        </p>
+        <a href="https://www.amd.com/es/products/cpu/amd-ryzen-9-5950x"
+          >Más Información</a
+        >
+      </div>
     </div>
-    <br>
-    <br>
+    <br />
+    <br />
     <footer class="bottomNav">
-        <!-- Inici Peu de Pàgina  -->
-        <img class="logo" src="../img/logo.png" alt="LOGO"> <!-- Logo Pàgina  -->
-        <div class="nav">
-            <a  href="../index.html">Inici</a>
-            <a class="active" href="/processadors/llista.html">Processadors</a>
-            <a href="/review/review.html">Review</a>
-            <a href="/form/formulario.html">Contacto</a>
-        </div>
-    </footer> <!-- Final Peu de Pàgina  -->
+      <!-- Inici Peu de Pàgina  -->
+      <img class="logo" src="../img/logo.png" alt="LOGO" />
+      <!-- Logo Pàgina  -->
+      <div class="nav">
+        <a href="../index.html">Inici</a>
+        <a class="active" href="/processadors/llista.html">Processadors</a>
+        <a href="/review/review.html">Review</a>
+        <a href="/form/formulario.html">Contacto</a>
+      </div>
+    </footer>
+    <!-- Final Peu de Pàgina  -->
+  </body>
 </html>
